@@ -1,0 +1,170 @@
+.about {
+
+    &-map {
+        position: relative;
+        text-align: center;
+        color: $primary-color;
+        background-color:rgba(0,0,0,.3);
+    }
+
+    &-centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    &-description {
+        color: $color-purple;
+        font-size: $font-18;
+    
+    }
+    
+}
+
+
+.delivery {
+    width: 90%;
+    height: 90vh;
+
+    padding: 2rem;
+    margin: 1rem;
+
+    background-color: $white-darken; 
+    text-align: center;
+    border-radius: 10px;
+
+    &-description {
+        color: $color-purple;
+        font-size: $font-18;
+    }
+}
+
+
+
+
+.image {
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 0 6px 5px gainsboro;
+
+        &-photo:hover {
+                cursor: pointer;
+                box-shadow: 0 6px 5px $color-shadow;
+        }
+
+    }
+
+
+
+
+.products {
+    text-align: center;
+    display: inline-block;
+
+    &-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    &-card {
+        width: 250px;
+        height: 300px;
+        padding: 2rem;
+        margin: 2rem;
+        color: $color-pink;
+        background-color: $white-darken;
+        border-radius: 5%; 
+        text-align: center;  
+        
+        display: inline-block;
+
+        &__image {
+            border-radius: 70px;
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+
+
+
+
+.contacts {
+    &-map {
+        position: relative;
+    text-align: center;
+    color: $primary-color;
+    background-color:rgba(0,0,0,.3);
+    }
+
+    &-centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+.location {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 0 auto;
+    align-content: center;
+
+    &-form {
+        width: 400px;
+    height: 450px;
+    padding: 2px;
+    margin: 2rem;
+    background-color: $color-pink;
+    color: $primary-color;
+    border-radius: 5%; 
+    text-align: center; 
+    
+    
+    &__input {
+        background-color: $color-purple;
+        color: $primary-color;
+        margin: 1rem;
+        padding: 4 4 4 4;
+        font-size: $font-15;
+        border-radius: 20px;
+        width: auto;
+    }
+
+    &__registerbtn {
+        background-color: $primary-color;
+        color: $color-purple;
+        padding: 10px;
+        margin: 8px 0;
+        border: none;   
+        width: 50%;
+        border-radius: 20px;
+        
+        }
+    }
+
+}
+
+
+
+.footer {
+    margin: 0 auto;
+    background-color: $color-gray;
+    padding: 1rem;
+
+    &-rights {
+    color: $primary-color;
+    font-size: $font-12;
+    display: inline-block;
+
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+
+    background-color: $color-gray;
+    }
+}

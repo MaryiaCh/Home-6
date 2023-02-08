@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $primary-color;
+
+    font-size: $font-16;    
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+
+.centralization {
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: $primary-color;
+    font-size: $font-14;
+
+    transition: all .5s;
+}
+
+.side {    
+    display: inline-block;
+     }
+
+
+ .around {
+    background-color: $color-red;
+    color: $primary-color;
+    padding: 1rem;
+    margin: 0;
+}
+
+.popup {
+    position: fixed;
+
+    width: 70px;
+    height: 70px;
+
+    right: 0px;
+    bottom: 0px;
+    display: inline-block;
+ 
+   background-color: $white-darken;
+   border-radius: 50px;
+   text-align: center;
+}
+
+
+.title-head {
+    text-align: center;
+    font-size: $font-32;
+    text-decoration: line-through;
+    color: $color-pink;
+    text-transform: uppercase;
+}
+
+.title {
+    color: $color-pink;
+    font-size: $font-22;
+    text-align: center;
+}
+
+input,
+select {
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
+  }
+
+  .a:hover {
+    color: $color-plum;
+    cursor: pointer;
+}

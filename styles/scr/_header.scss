@@ -1,0 +1,26 @@
+.header {
+    background-color: $color-gray;
+    padding: 1rem;
+    margin: 0 auto;
+
+    position: relative;
+
+    &-logo {
+        float: left;
+    }
+
+    &__logo-icon {
+        display: inline;
+        width: 150px;
+        height: 100px;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+}
+
+.around {
+    background-color: $color-red;
+    color: $primary-color;
+    padding: 1rem;
+    margin: 0;
+}
